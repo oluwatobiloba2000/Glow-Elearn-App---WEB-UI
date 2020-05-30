@@ -89,7 +89,8 @@ body {
 
 .personal-profile {
     width: 230px;
-    position: absolute;
+    position: relative;
+    height: fit-content;
     padding-top: 15px;
     padding-right: 8px;
     padding-left: 8px;
@@ -115,15 +116,22 @@ body {
 }
 
 .profile-container {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
     width: 80%;
 }
 
 .list-container {
-    margin-left: 260px;
+    width: 65%;
+    margin-left: 20px;
     padding: 10px;
     background-color: #f8f8f8;
 }
-
+.list-container.school-list{
+    margin-left: 0;
+    width: 95%;
+}
 .list {
     margin: 2px;
 }
