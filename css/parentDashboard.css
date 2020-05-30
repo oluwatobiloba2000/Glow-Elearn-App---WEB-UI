@@ -194,6 +194,27 @@ body {
     margin-top: 0 !important;
 }
 
+.button-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.dashboard-btn{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.dashboard-btn>button{
+    width: 33%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: #ec6401;
+    color: white;
+}
 footer {
     text-align: center;
     height: 75px;
@@ -250,6 +271,9 @@ footer {
     .ward-result-container{
         margin-bottom: 20px;
     }
+    .dashboard-btn{
+        width: 100%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and down) */
@@ -261,6 +285,18 @@ footer {
 
     .profile-container {
         width: 95%;
+    }
+    .dashboard-btn>button{
+        width: 45%;
+    }
+
+    /* head responsiveness */
+    .head{
+        flex-direction: column;
+    }
+    .head>header{
+        align-self: flex-start;
+        margin-left: 5px;
     }
 }
 
@@ -275,7 +311,6 @@ footer {
 
     .head>header {
         font-size: 23px;
-        margin-left: -45px;
     }
 }
 
