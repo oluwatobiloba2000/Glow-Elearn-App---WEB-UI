@@ -20,8 +20,8 @@
     <!-- style sheet for the progress bars -->
     <link rel="stylesheet" href="../css/circular progress bar/css-circular-prog-bar.css">
     
-    <link rel="stylesheet" href="../css/adminDashboard.css">
-    <title>Admin Dashoard || Glow-Elearn</title>
+    <link rel="stylesheet" href="../css/parentDashboard.css">
+    <title>parent Dashoard || Glow-Elearn</title>
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                 <a href="javascript:void(0)">Logout</a>
             </nav>
         </div>
-        <h2>Admin Dashoard</h2>
+        <h2>Parent Dashoard</h2>
         <svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 0H1440V271C885.585 467.003 570.417 469.701 0 271V0Z" fill="#EC6401" />
         </svg>
@@ -52,8 +52,34 @@
             </div>
           </div>
 
+          <div class="list-container ward-result-container">
+            <h3>Ward Results</h3>
+            <div class="list">
+                <ul>
+                    <li>
+                        <div class="single-profile">
+                            <div>
+                              <p class="ward-subject">Biology</p>
+                            </div>
+                        </div>
+                        <!-- TODO: NOTE --------
+                            1. if the number is over 50 add (over50) class,
+                            2. if the number is under 50 dont add the (over50) class
+                            3. to set the number add class p(and the number), eg if the progress number is 5, the class to be added would be p5 -->
+                        <div class="progress-circle over50 p92">
+                            <span>92%</span>
+                            <div class="left-half-clipper">
+                               <div class="first50-bar"></div>
+                               <div class="value-bar"></div>
+                            </div>
+                         </div>
+                    </li>
+                </ul>
+            </div>
+          </div>
+
           <div class="list-container">
-            <h3>Overview of Students List and Profile</h3>
+            <h3>Ward Learning Progress</h3>
             <div class="list">
                 <ul>
                     <li>
@@ -129,106 +155,6 @@
                       </li>
                 </ul>
             </div>
-          
-            <!-- container for all schools -->
-            <div class="list-container school-list">
-              <h3>All schools</h3>
-              <div class="list">
-                  <ul>
-                      <li>
-                        <div class="single-profile">
-                              <img src="../assests/images/angry-annoyed-cafe-52608.jpg" class="" alt="A student">
-                              <div>
-                                <p>Lekki high school, lekki</p>
-                              </div>
-                          </div>
-                          <div class="school-update-delete-container">
-                              <a class="link-primary" href="javascript:void(0)">update</a>
-                              <a class="link-danger" href="javascript:void(0)">Delete</a>
-                          </div>
-                      </li>
-    
-                      <li>
-                          <div class="single-profile">
-                                <img src="../assests/images/angry-annoyed-cafe-52608.jpg" class="" alt="A student">
-                                <div>
-                                  <p>Banana Island college, Banana Island</p>
-                                </div>
-                            </div>
-                            <div class="school-update-delete-container">
-                                <a class="link-primary" href="javascript:void(0)">update</a>
-                                <a class="link-danger" href="javascript:void(0)">Delete</a>
-                            </div>
-                      </li>
-    
-                      <li>
-                          <div class="single-profile">
-                                <img src="../assests/images/angry-annoyed-cafe-52608.jpg" class="" alt="A student">
-                                <div>
-                                  <p>Lious private school, victoria Island</p>
-                                </div>
-                            </div>
-                            <div class="school-update-delete-container">
-                                <a class="link-primary" href="javascript:void(0)">update</a>
-                                <a class="link-danger" href="javascript:void(0)">Delete</a>
-                            </div>
-                      </li>
-    
-                      <li>
-                          <div class="single-profile">
-                                <img src="../assests/images/angry-annoyed-cafe-52608.jpg" class="" alt="A student">
-                                <div>
-                                  <p>Lious private school, victoria Island</p>
-                                </div>
-                            </div>
-                            <div class="school-update-delete-container">
-                                <a class="link-primary" href="javascript:void(0)">update</a>
-                                <a class="link-danger" href="javascript:void(0)">Delete</a>
-                            </div>
-                      </li>
-    
-                      <li>
-                          <div class="single-profile">
-                                <img src="../assests/images/angry-annoyed-cafe-52608.jpg" class="" alt="A student">
-                                <div>
-                                  <p>Lious private school, victoria Island</p>
-                                </div>
-                            </div>
-                            <div class="school-update-delete-container">
-                                <a class="link-primary" href="javascript:void(0)">update</a>
-                                <a class="link-danger" href="javascript:void(0)">Delete</a>
-                            </div>
-                      </li>
-    
-                      <li>
-                          <div class="single-profile">
-                                <img src="../assests/images/angry-annoyed-cafe-52608.jpg" class="" alt="A student">
-                                <div>
-                                  <p>Lious private school, victoria Island</p>
-                                </div>
-                            </div>
-                            <div class="school-update-delete-container">
-                                <a class="link-primary" href="javascript:void(0)">update</a>
-                                <a class="link-danger" href="javascript:void(0)">Delete</a>
-                            </div>
-                      </li>
-    
-                      <li>
-                          <div class="single-profile">
-                                <img src="../assests/images/angry-annoyed-cafe-52608.jpg" class="" alt="A student">
-                                <div>
-                                  <p>Lious private school, victoria Island</p>
-                                </div>
-                            </div>
-                            <div class="school-update-delete-container">
-                                <a class="link-primary" href="javascript:void(0)">update</a>
-                                <a class="link-danger" href="javascript:void(0)">Delete</a>
-                            </div>
-                      </li>
-                  </ul>
-              </div>
-        </div>
-
           </div>
       </div>
     </section>

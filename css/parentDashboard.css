@@ -90,7 +90,6 @@ body {
 .personal-profile {
     width: 230px;
     position: relative;
-    height: fit-content;
     padding-top: 15px;
     padding-right: 8px;
     padding-left: 8px;
@@ -116,22 +115,18 @@ body {
 }
 
 .profile-container {
-    display: -webkit-flex;
-    display: -ms-flex;
+    width: 90%;
     display: flex;
-    width: 80%;
 }
 
 .list-container {
-    width: 65%;
-    margin-left: 20px;
+    margin-left: 12px;
     padding: 10px;
+    height: fit-content;
+    width: 50%;
     background-color: #f8f8f8;
 }
-.list-container.school-list{
-    margin-left: 0;
-    width: 95%;
-}
+
 .list {
     margin: 2px;
 }
@@ -186,46 +181,17 @@ body {
     width: 100%;
 }
 
-.school-list .single-profile>div {
+.ward-result-container{
+    width: 30%;
+}
+.ward-result-container .single-profile>div{
     display: flex;
+    display: -webkit-flex;
+    justify-content: center;
     align-items: center;
 }
-
-.school-list .single-profile>div>p {
-    margin: 0;
-}
-
-.school-update-delete-container {
-    display: flex;
-    font-size: 15px;
-    margin: 2px 11px 2px 0px;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.link-primary {
-    color: #2D9CDB;
-    padding: 1px;
-    text-decoration: none;
-}
-
-.link-primary:hover {
-    padding: 0;
-    border-radius: 5px;
-    border: 1px dashed #2D9CDB;
-}
-
-.link-danger {
-    color: #EB5757;
-    padding: 1px;
-    text-decoration: none;
-}
-
-.link-danger:hover {
-    border-radius: 5px;
-    padding: 0;
-    border: 1px dashed #EB5757;
+.ward-subject{
+    margin-top: 0 !important;
 }
 
 footer {
@@ -258,6 +224,9 @@ footer {
         height: 200%;
         right: 0px;
     }
+    .profile-container {
+        width: 96%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -277,6 +246,9 @@ footer {
         align-items: center;
         display: flex;
         flex-direction: column;
+    }
+    .ward-result-container{
+        margin-bottom: 20px;
     }
 }
 
