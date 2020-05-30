@@ -102,7 +102,7 @@ body {
     background-color: #F8F8F8;
     margin-right: 0;
     padding-bottom: 30px;
-    box-shadow: 0px 1px 7px 1px grey;
+    box-shadow: 0px 1px 7px 1px #8080806b;
 }
 
 .personal-profile>img {
