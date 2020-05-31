@@ -295,7 +295,7 @@ body {
     background-color: rgba(193, 193, 193, 0.2);
 }
 
-.chat-input>textarea {
+.chat-input>input {
     width: 80%;
     padding-left: 10px;
     height: 25px;
