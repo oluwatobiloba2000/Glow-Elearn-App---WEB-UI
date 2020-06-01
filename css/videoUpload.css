@@ -87,7 +87,7 @@ body {
     position: relative;
 }
 
-.video-upload-drop-box{
+.video-upload-drop-box {
     width: 50%;
     padding: 10px;
     height: 500px;
@@ -101,11 +101,12 @@ body {
     width: 80%;
 }
 
-.video-upload-drop-box{
+.video-upload-drop-box {
     display: flex;
     flex-direction: column;
 }
-.upload-icon{
+
+.upload-icon {
     height: 65%;
     width: 100%;
     display: flex;
@@ -114,17 +115,21 @@ body {
     font-size: 130px;
     color: #4F4F4F;
 }
-.video-upload-drop-box>div:not(:first-of-type){
+
+.video-upload-drop-box>div:not(:first-of-type) {
     text-align: center;
 }
-.upload-text{
+
+.upload-text {
     position: relative;
 }
-.upload-text>input{
+
+.upload-text>input {
     position: absolute;
     width: 100%;
     opacity: 0;
 }
+
 .list-container {
     width: 50%;
     height: 519px;
@@ -157,12 +162,13 @@ body {
     border-radius: 6px;
     padding: 5px;
 }
-.file-container{
+
+.file-container {
     display: flex;
     position: relative;
 }
 
-.check-right{
+.check-right {
     position: absolute;
     right: 0;
     font-size: 29px;
@@ -170,47 +176,53 @@ body {
     cursor: pointer;
 }
 
-.play-file{
+.play-file {
     font-size: 43px;
     color: gray;
     cursor: pointer;
     height: fit-content;
 }
-.file-details{
+
+.file-details {
     color: #A1A1A1;
     padding-left: 5px;
     padding-top: 4px;
 }
-.file-name{
+
+.file-name {
     width: 95%;
 }
-.file-size{
+
+.file-size {
     font-size: 14px;
     padding-left: 1px;
     color: #363a3d;
 }
-.progress-bar{
+
+.progress-bar {
     position: relative;
-     height: 8px;
+    height: 8px;
     border-radius: 25px;
     margin-top: 5px;
     background-color: #F923CA;
 }
-.progress-status{
+
+.progress-status {
     background-color: #C4C4C4;
     height: 8px;
     border-radius: 25px;
     position: absolute;
 }
 
-.upload-video-btn-container{
+.upload-video-btn-container {
     height: 8%;
     margin: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.upload-video-btn-container>button{
+
+.upload-video-btn-container>button {
     background-color: #EC6401;
     width: 60%;
     height: 100%;
@@ -219,6 +231,7 @@ body {
     color: white;
     cursor: pointer;
 }
+
 footer {
     text-align: center;
     height: 75px;
@@ -249,7 +262,8 @@ footer {
         height: 200%;
         right: 0px;
     }
-    .video-upload-container{
+
+    .video-upload-container {
         width: 90%;
     }
 }
@@ -272,12 +286,14 @@ footer {
         display: flex;
         flex-direction: column;
     }
+
     .video-upload-drop-box {
         width: 95%;
         margin-top: 24px;
         display: flex;
         flex-direction: column;
     }
+
     .video-upload-container {
         flex-direction: column-reverse;
         width: 90%;
@@ -306,10 +322,11 @@ footer {
     }
 
     /* head responsiveness */
-    .head{
+    .head {
         flex-direction: column;
     }
-    .head>header{
+
+    .head>header {
         align-self: flex-start;
         margin-left: 5px;
     }
