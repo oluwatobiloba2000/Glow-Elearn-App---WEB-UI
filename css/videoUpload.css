@@ -269,22 +269,9 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-    .personal-profile {
-        position: relative;
-        width: 98%;
-        margin-bottom: 20px;
-    }
-
     .list-container {
         width: 98%;
         margin-left: 0;
-    }
-
-    .profile-container {
-        width: 80%;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
     }
 
     .video-upload-drop-box {
@@ -305,10 +292,6 @@ footer {
     .header-container {
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
-    }
-
-    .profile-container {
-        width: 95%;
     }
 }
 
