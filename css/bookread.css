@@ -141,23 +141,6 @@ body {
     color: #4F4F4F;
 }
 
-/* .vid-module {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 4px;
-    margin-left: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
-
-
-/* .file-name {
-    font-size: 14px;
-    color: gray;
-    cursor: pointer;
-} */
-
 .materials-container {
     height: 76%;
 }
@@ -166,12 +149,15 @@ body {
     margin-top: 15px;
     margin-bottom: 7px;
 }
-.materials-container>h4{
+
+.materials-container>h4 {
     color: #A1A1A1;
 }
-.review{
+
+.review {
     color: gold;
 }
+
 .module-btn {
     height: 16%;
     margin-top: 7px;
