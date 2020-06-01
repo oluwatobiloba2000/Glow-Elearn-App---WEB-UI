@@ -58,6 +58,8 @@ body {
 .header-search-container>h2 {
     margin-bottom: 0;
     margin-top: 52px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .head {
